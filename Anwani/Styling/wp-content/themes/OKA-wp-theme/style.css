@@ -324,8 +324,8 @@ a{color:inherit;text-decoration:none}
 .slice h5{line-height:28px;font-family:Mueller,sans-serif;font-weight:300;font-size:18px;font-size:calc(14px + .15vw);color:#7F7F7F}
 @media (max-width:1024px){.slice h5{font-size:16px}}
 .image-sequence-wrap .caption,.media-wrap .caption{font-size:13px;font-size:calc(12px + .15vw);color:#989A9E;letter-spacing:.02em;line-height:1.18em}
-.top_content{position:absolute;top:0;float:right;height:70px;width:100%; margin-left: 780px; font-size: 20px; color:white }
-.top_content_2{position:absolute;top:0;float:right;height:70px;width:100%; margin-left: 100px; margin-top: 2px; font-size: 20px; top: 0; color:white; font-weight: bold; }
+.top_content{position:absolute;top:0;float:right;height:70px;width:100%; margin-left: 880px; font-size: 20px; color:white }
+.top_content_2{position:absolute;top:0;float:right;height:70px;width:100%; margin-left: 7500px; margin-top: 2px; font-size: 20px; top: 0; color:white; font-weight: bold; }
 .intro_icon{
     
     margin-left: 19px;
