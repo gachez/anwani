@@ -154,13 +154,7 @@ a:active img,a:focus img{border:none!important;outline:0!important}
 .loader-inner{position:absolute;top:0;left:0;height:100%;width:100%;background:#202020}
 @media (max-width:1024px){.pending .loader-outer{-webkit-transform:translateY(0);transform:translateY(0)}}
 @media (max-width:1024px){.pending .loader-inner{-webkit-animation:loading-pulse-mob 2.2s infinite;animation:loading-pulse-mob 2.2s infinite}}
-a.olson-kundig-wordmark-t-r{position:fixed;top:20px;right:20px;background-image:url(images/identity/ok-wordmark-white.svg);background-position:center right;background-size:contain;background-repeat:no-repeat;height:23px;width:150px;-webkit-transition:-webkit-transform .22s ease,opacity .3s ease;transition:transform .22s ease,opacity .3s ease;display:inline-block}
-@media (max-width:900px){a.olson-kundig-wordmark-t-r{display:none}}
-[data-page=home] a.olson-kundig-wordmark-t-r{-webkit-transform:translateY(-70px);transform:translateY(-70px)}
-.show-menu a.olson-kundig-wordmark-t-r{opacity:0}
-.past-fold a.olson-kundig-wordmark-t-r{-webkit-transform:translateY(0);transform:translateY(0)}
-.page-nav-black a.olson-kundig-wordmark-t-r,.past-fold a.olson-kundig-wordmark-t-r,.show-clippings a.olson-kundig-wordmark-t-r{background-image:url(images/identity/ok-wordmark-black.svg)}
-.show-god-mode a.olson-kundig-wordmark-t-r{background-image:url(images/identity/ok-wordmark-white.svg)}
+
 @-webkit-keyframes loading-pulse{0%{opacity:.5}
 50%{opacity:1}
 100%{opacity:.5}}
