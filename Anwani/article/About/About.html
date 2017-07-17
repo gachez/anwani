@@ -1077,6 +1077,45 @@ Suite 600, Seattle, WA<br />
 
   <div class='god-mode-bg'></div>
 
+<script type="text/javascript">
+    
+    $(document).ready(function() {
+    // Configure/customize these variables.
+    var showChar = 120;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Show more ";
+    var lesstext = "Show less";
+    
+
+    $('.more').each(function() {
+        var content = $(this).html();
+ 
+        if(content.length > showChar) {
+ 
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+ 
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+ 
+            $(this).html(html);
+        }
+ 
+    });
+ 
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+});
+</script>
 <script>
     $(document).ready(function () {
   var trigger = $('.hamburger'),
@@ -1107,17 +1146,6 @@ Suite 600, Seattle, WA<br />
   });  
 });
 </script>
-
-  <script src="../../Styling/wp-content/themes/OKA-wp-theme/main.js"></script>
-<script> document.title = 'Anwani-Archtects';</script>
-  <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='../../../www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-  </script>
 </body>
 
 <!-- Mirrored from www.olsonkundigarchitects.com/article/kevin-kudo-king/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 11:18:07 GMT -->
