@@ -1051,7 +1051,7 @@ Suite 600, Seattle, WA<br />
 
   <div class='god-mode-bg'></div>
 <script>
-    $(document).ready(function () {
+   $(document).ready(function () {
   var trigger = $('.hamburger'),
       overlay = $('.overlay'),
      isClosed = false;
@@ -1066,12 +1066,12 @@ Suite 600, Seattle, WA<br />
         overlay.hide();
         trigger.removeClass('is-open');
         trigger.addClass('is-closed');
-        isClosed = false;
+        isClosed == false;
       } else {   
         overlay.show();
         trigger.removeClass('is-closed');
         trigger.addClass('is-open');
-        isClosed = true;
+        isClosed == true;
       }
   }
   
@@ -1079,7 +1079,6 @@ Suite 600, Seattle, WA<br />
         $('#wrapper').toggleClass('toggled');
   });  
 });
-</script>
   </body>
 
 
