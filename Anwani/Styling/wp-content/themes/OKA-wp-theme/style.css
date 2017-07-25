@@ -286,11 +286,12 @@ html { height: 100%;}
   left: 0;
   height: 4px;
   width: 100%;
+  background-color: #1a1a1a;
 }
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-  background-color: transparent;
+  background-color: #1a1a1a;
 }
 .hamburger.is-closed .hamb-top { 
   top: 5px; 
