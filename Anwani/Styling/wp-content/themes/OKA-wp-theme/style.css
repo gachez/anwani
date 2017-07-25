@@ -265,7 +265,7 @@ html { height: 100%;}
   color: #fff;
   line-height: 32px;
   text-align: center;
-  opacity: 0;
+  opacity: 1;
   -webkit-transform: translate3d(0,0,0);
   -webkit-transition: all .35s ease-in-out;
 }
