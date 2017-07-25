@@ -256,6 +256,7 @@ html { height: 100%;}
 .hamburger:focus,
 .hamburger:active {
   outline: none;
+  background-color: #1a1a1a;
 }
 .hamburger.is-closed:before {
   content: '';
@@ -295,14 +296,17 @@ html { height: 100%;}
 }
 .hamburger.is-closed .hamb-top { 
   top: 5px; 
+  background-color:#1a1a1a;
   -webkit-transition: all .35s ease-in-out;
 }
 .hamburger.is-closed .hamb-middle {
   top: 50%;
+   background-color:#1a1a1a;
   margin-top: -2px;
 }
 .hamburger.is-closed .hamb-bottom {
   bottom: 5px;  
+   background-color:#1a1a1a;
   -webkit-transition: all .35s ease-in-out;
 }
 
